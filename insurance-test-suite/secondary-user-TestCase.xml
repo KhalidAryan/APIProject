@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="a6bd20d8-5db4-411e-882c-50e07821cac3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="secondary-user TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:description>TestCase generated for REST Resource [secondary-user] located at [/api/v1/secondary-user]</con:description><con:settings><con:setting id="a6bd20d8-5db4-411e-882c-50e07821cac3fileName">secondary-user-TestCase</con:setting></con:settings><con:testStep type="restrequest" name="Request 1" id="06c63aec-5634-4ebe-b68a-044bb6815ff7"><con:settings/><con:config service="https://www.test-insurance.com" resourcePath="/api/v1/secondary-user" methodName="SecondaryUser" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="b83cc47e-a08b-449d-a226-4932fd36a933" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPersonId": "133",
+  "secondaryPerson": {
+    "username": "ahmad",
+    "email": "ahmadkahadi@gmail.com",
+    "title": "mr",
+    "firstName": "ahmad",
+    "lastName": "ahadi",
+    "gender": "male",
+    "maritalStatus": "single",
+    "employmentStatus": "selp employed",
+    "dateOfBirth": "1999-11-12",
+    "languagePref": "en",
+    "password": "2222"
+  },
+  "secondaryPersonMailingAddress": {
+    "addressType": "usa",
+    "addressLine1": "somewhere",
+    "city": "nowhere",
+    "state": "ga",
+    "postalCode": "2221",
+    "countryCode": "9393"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/secondary-user</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

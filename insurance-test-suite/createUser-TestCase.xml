@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="a01306a7-4ca6-450d-b789-cde0b1239392" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="createUser TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:description>TestCase generated for REST Resource [createUser] located at [/api/v1/user]</con:description><con:settings><con:setting id="a01306a7-4ca6-450d-b789-cde0b1239392fileName">createUser-TestCase</con:setting></con:settings><con:testStep type="restrequest" name="Request 1" id="0b60a310-88e7-4cdf-88c2-feb400538359"><con:settings/><con:config service="https://www.test-insurance.com" resourcePath="/api/v1/user" methodName="createUser1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="3aa11c64-4804-478e-a262-2ae4bbd03ea5" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPerson": {
+    "email": "ahmadkahadi@gmail.com",
+    "title": "mr",
+    "firstName": "Ahmad",
+    "lastName": "Ahadi",
+    "gender": "male",
+    "maritalStatus": "married",
+    "employmentStatus": "employed",
+    "dateOfBirth": "2000-01-11",
+    "languagePref": "en"
+  },
+  "primaryPersonMailingAddress": {
+    "addressType": "USA",
+    "addressLine1": "2222",
+    "city": "nothing",
+    "state": "ca",
+    "postalCode": "1232",
+    "countryCode": "11"
+  },
+  "primaryPersonPhone": {
+    "phoneNumber": "1234322123",
+    "phoneExtension": "12",
+    "phoneTime": "night",
+    "phoneType": "cell"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/user</con:originalUri><con:credentials><con:selectedAuthProfile>Khalid</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

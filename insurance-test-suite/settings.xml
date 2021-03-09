@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="fa3fe084-d6b9-454a-856a-8af40f3da0af" name="insurance test suite" xmlns:con="http://eviware.com/soapui/config"><con:description>TestSuite generated for REST Service [https://www.test-insurance.com]</con:description><con:settings><con:setting id="fa3fe084-d6b9-454a-856a-8af40f3da0affileName">insurance-test-suite</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
